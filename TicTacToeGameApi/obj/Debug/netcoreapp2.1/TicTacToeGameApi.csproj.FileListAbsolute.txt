@@ -1,0 +1,17 @@
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\obj\Debug\netcoreapp2.1\TicTacToeGameApi.csprojAssemblyReference.cache
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\obj\Debug\netcoreapp2.1\TicTacToeGameApi.csproj.CoreCompileInputs.cache
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\obj\Debug\netcoreapp2.1\TicTacToeGameApi.RazorAssemblyInfo.cache
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\obj\Debug\netcoreapp2.1\TicTacToeGameApi.RazorAssemblyInfo.cs
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\obj\Debug\netcoreapp2.1\TicTacToeGameApi.AssemblyInfoInputs.cache
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\obj\Debug\netcoreapp2.1\TicTacToeGameApi.AssemblyInfo.cs
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\bin\Debug\netcoreapp2.1\TicTacToeGameApi.deps.json
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\bin\Debug\netcoreapp2.1\TicTacToeGameApi.runtimeconfig.json
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\bin\Debug\netcoreapp2.1\TicTacToeGameApi.runtimeconfig.dev.json
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\bin\Debug\netcoreapp2.1\TicTacToeGameApi.dll
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\bin\Debug\netcoreapp2.1\TicTacToeGameApi.pdb
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\bin\Debug\netcoreapp2.1\SQLDatabase.dll
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\bin\Debug\netcoreapp2.1\SQLDatabase.pdb
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\obj\Debug\netcoreapp2.1\TicTacToeGameApi.RazorTargetAssemblyInfo.cache
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\obj\Debug\netcoreapp2.1\TicTacToeGameApi.csproj.CopyComplete
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\obj\Debug\netcoreapp2.1\TicTacToeGameApi.dll
+C:\Users\ajoshi\source\repos\TicTacToeGameApi\TicTacToeGameApi\obj\Debug\netcoreapp2.1\TicTacToeGameApi.pdb
