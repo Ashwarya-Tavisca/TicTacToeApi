@@ -42,5 +42,82 @@ namespace SQLDatabase
                 return false;
             }
         }
+        public bool AddLog(string requestData, string responseData, string exceptionData, DateTime date)
+        {
+            SqlConnection conn = null;
+            try
+            {
+                conn = Connect();
+                conn.Open();
+                string query = "Insert into LogDatabase(RequestData,ResponseData,ExceptionData,Date) values ( @requestData , @responseData , @exceptionData , @date)";
+                SqlCommand sqlCommand = new SqlCommand(query, conn);
+                sqlCommand.Parameters.Add(new SqlParameter("requestData", requestData));
+                sqlCommand.Parameters.Add(new SqlParameter("responseData", responseData));
+                sqlCommand.Parameters.Add(new SqlParameter("exceptionData", exceptionData));
+                sqlCommand.Parameters.Add(new SqlParameter("date", date));
+                sqlCommand.ExecuteNonQuery();
+                conn.Close();
+                return true;
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.StackTrace);
+                return false;
+            }
+        }
+        public bool CheckAccessToken(string accessToken)
+        {
+            SqlConnection conn = null;
+            try
+            {
+                conn = Connect();
+                conn.Open();
+                string query = "Select * from Users where AccessToken=@accessToken";
+                SqlCommand sqlCommand = new SqlCommand(query, conn);
+                sqlCommand.Parameters.Add(new SqlParameter("@accessToken", accessToken));
+                SqlDataReader dataReader = sqlCommand.ExecuteReader();
+                bool flag = false;
+                if (dataReader.Read())
+                    flag = true;
+                conn.Close();
+                return flag;
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.StackTrace);
+                return false;
+            }
+        }
+        public string GetUsername(string accessToken)
+        {
+            SqlConnection conn = null;
+            try
+            {
+                string username = "";
+                conn = Connect();
+                conn.Open();
+                string query = "Select * from Users where AccessToken=@accessToken";
+                SqlCommand sqlCommand = new SqlCommand(query, conn);
+                sqlCommand.Parameters.Add(new SqlParameter("@accessToken", accessToken));
+                SqlDataReader dataReader = sqlCommand.ExecuteReader();
+                if (dataReader.Read())
+                    username = dataReader[3].ToString();
+                conn.Close();
+                return username;
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.StackTrace);
+                return "";
+            }
+        }
+
+
+
+
+
+
+
     }
 }
+

@@ -7,26 +7,18 @@ using SQLDatabase;
 
 namespace TicTacToeGameApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Identity")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
+        // GET api/Identity
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Welcome" };
         }
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
         [HttpPost]
+        [Log]
         public void Post([FromBody] Users users)
         {
             Database database = new Database();
@@ -34,16 +26,6 @@ namespace TicTacToeGameApi.Controllers
             bool result = database.AddUsers(users.FirstName, users.LastName, users.UserName, accessToken);
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+    
     }
 }

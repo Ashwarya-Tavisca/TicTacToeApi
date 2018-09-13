@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ajoshi\\source\\repos\\TicTacToeGameApi\\SQLDatabase\\SQLDatabase.csproj",
+      "projectUniqueName": "C:\\Users\\ajoshi\\Desktop\\TicTacToeApi\\SQLDatabase\\SQLDatabase.csproj",
       "projectName": "SQLDatabase",
-      "projectPath": "C:\\Users\\ajoshi\\source\\repos\\TicTacToeGameApi\\SQLDatabase\\SQLDatabase.csproj",
+      "projectPath": "C:\\Users\\ajoshi\\Desktop\\TicTacToeApi\\SQLDatabase\\SQLDatabase.csproj",
       "packagesPath": "C:\\Users\\ajoshi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ajoshi\\source\\repos\\TicTacToeGameApi\\SQLDatabase\\obj\\",
+      "outputPath": "C:\\Users\\ajoshi\\Desktop\\TicTacToeApi\\SQLDatabase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

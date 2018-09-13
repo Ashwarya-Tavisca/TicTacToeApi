@@ -10,3 +10,15 @@ C:\Users\ajoshi\source\repos\TicTacToeGameApi\SQLDatabase\obj\Debug\netcoreapp2.
 C:\Users\ajoshi\source\repos\TicTacToeGameApi\SQLDatabase\obj\Debug\netcoreapp2.1\SQLDatabase.csproj.CopyComplete
 C:\Users\ajoshi\source\repos\TicTacToeGameApi\SQLDatabase\obj\Debug\netcoreapp2.1\SQLDatabase.dll
 C:\Users\ajoshi\source\repos\TicTacToeGameApi\SQLDatabase\obj\Debug\netcoreapp2.1\SQLDatabase.pdb
+C:\Users\ajoshi\Desktop\TicTacToeApi\SQLDatabase\bin\Debug\netcoreapp2.1\SQLDatabase.deps.json
+C:\Users\ajoshi\Desktop\TicTacToeApi\SQLDatabase\bin\Debug\netcoreapp2.1\SQLDatabase.dll
+C:\Users\ajoshi\Desktop\TicTacToeApi\SQLDatabase\bin\Debug\netcoreapp2.1\SQLDatabase.pdb
+C:\Users\ajoshi\Desktop\TicTacToeApi\SQLDatabase\bin\Debug\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ajoshi\Desktop\TicTacToeApi\SQLDatabase\bin\Debug\netcoreapp2.1\System.Data.SqlClient.xml
+C:\Users\ajoshi\Desktop\TicTacToeApi\SQLDatabase\obj\Debug\netcoreapp2.1\SQLDatabase.csprojAssemblyReference.cache
+C:\Users\ajoshi\Desktop\TicTacToeApi\SQLDatabase\obj\Debug\netcoreapp2.1\SQLDatabase.csproj.CoreCompileInputs.cache
+C:\Users\ajoshi\Desktop\TicTacToeApi\SQLDatabase\obj\Debug\netcoreapp2.1\SQLDatabase.AssemblyInfoInputs.cache
+C:\Users\ajoshi\Desktop\TicTacToeApi\SQLDatabase\obj\Debug\netcoreapp2.1\SQLDatabase.AssemblyInfo.cs
+C:\Users\ajoshi\Desktop\TicTacToeApi\SQLDatabase\obj\Debug\netcoreapp2.1\SQLDatabase.csproj.CopyComplete
+C:\Users\ajoshi\Desktop\TicTacToeApi\SQLDatabase\obj\Debug\netcoreapp2.1\SQLDatabase.dll
+C:\Users\ajoshi\Desktop\TicTacToeApi\SQLDatabase\obj\Debug\netcoreapp2.1\SQLDatabase.pdb
